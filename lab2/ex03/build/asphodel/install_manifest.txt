@@ -1,0 +1,15 @@
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/ament_index/resource_index/package_run_dependencies/asphodel
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/ament_index/resource_index/parent_prefix_path/asphodel
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/environment/ament_prefix_path.sh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/environment/ament_prefix_path.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/environment/path.sh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/environment/path.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/local_setup.bash
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/local_setup.sh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/local_setup.zsh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/local_setup.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/package.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/ament_index/resource_index/packages/asphodel
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/cmake/asphodelConfig.cmake
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/cmake/asphodelConfig-version.cmake
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/install/asphodel/share/asphodel/package.xml

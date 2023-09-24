@@ -1,0 +1,16 @@
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/lib/ex10/ex10
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ament_index/resource_index/package_run_dependencies/ex10
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ament_index/resource_index/parent_prefix_path/ex10
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/environment/ament_prefix_path.sh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/environment/ament_prefix_path.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/environment/path.sh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/environment/path.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/local_setup.bash
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/local_setup.sh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/local_setup.zsh
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/local_setup.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/package.dsv
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ament_index/resource_index/packages/ex10
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/cmake/ex10Config.cmake
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/cmake/ex10Config-version.cmake
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/install/ex10/share/ex10/package.xml

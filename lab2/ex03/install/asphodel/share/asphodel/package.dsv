@@ -1,0 +1,8 @@
+source;share/asphodel/hook/cmake_prefix_path.ps1
+source;share/asphodel/hook/cmake_prefix_path.dsv
+source;share/asphodel/hook/cmake_prefix_path.sh
+source;share/asphodel/local_setup.bash
+source;share/asphodel/local_setup.dsv
+source;share/asphodel/local_setup.ps1
+source;share/asphodel/local_setup.sh
+source;share/asphodel/local_setup.zsh

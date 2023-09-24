@@ -1,0 +1,4 @@
+source;share/asphodel/local_setup.bash
+source;share/asphodel/local_setup.dsv
+source;share/asphodel/local_setup.sh
+source;share/asphodel/local_setup.zsh

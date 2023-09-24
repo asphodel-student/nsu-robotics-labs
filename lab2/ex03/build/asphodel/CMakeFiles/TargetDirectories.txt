@@ -1,0 +1,9 @@
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/uninstall.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/asphodel_uninstall.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/test.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/edit_cache.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/rebuild_cache.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/list_install_components.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/install.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/install/local.dir
+/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex03/build/asphodel/CMakeFiles/install/strip.dir
