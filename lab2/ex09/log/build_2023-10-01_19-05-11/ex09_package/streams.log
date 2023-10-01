@@ -1,0 +1,42 @@
+[0.027s] Invoking command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/src/ex09_package -DCMAKE_INSTALL_PREFIX=/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.425s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.474s] -- Added test 'lint_cmake' to check CMake code style
+[0.475s] -- Added test 'xmllint' to check XML markup files
+[0.476s] -- Configuring done
+[0.477s] -- Generating done
+[0.477s] -- Build files have been written to: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package
+[0.481s] Invoked command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/src/ex09_package -DCMAKE_INSTALL_PREFIX=/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package
+[0.482s] Invoking command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package -- -j16 -l16
+[0.504s] Invoked command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package -- -j16 -l16
+[0.521s] Invoking command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package
+[0.525s] -- Install configuration: ""
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ament_index/resource_index/package_run_dependencies/ex09_package
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ament_index/resource_index/parent_prefix_path/ex09_package
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/ament_prefix_path.sh
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/ament_prefix_path.dsv
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/path.sh
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/path.dsv
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.bash
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.sh
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.zsh
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.dsv
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/package.dsv
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ament_index/resource_index/packages/ex09_package
+[0.526s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_packageConfig.cmake
+[0.527s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_packageConfig-version.cmake
+[0.527s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/package.xml
+[0.527s] Invoked command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package

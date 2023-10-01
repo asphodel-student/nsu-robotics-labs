@@ -1,0 +1,257 @@
+[0.025s] Invoking command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package -- -j16 -l16
+[0.040s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.040s] -- Found ament_cmake_core: 1.3.5 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.310s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.581s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.596s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.596s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.596s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.596s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.609s] -- Found PythonExtra: .so  
+[0.628s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.633s] -- Added test 'lint_cmake' to check CMake code style
+[0.633s] -- Added test 'xmllint' to check XML markup files
+[0.634s] -- Configuring done
+[0.649s] -- Generating done
+[0.651s] -- Build files have been written to: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package
+[0.664s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.670s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.674s] [  5%] Built target ament_cmake_python_copy_ex09_package
+[0.801s] running egg_info
+[0.801s] creating ex09_package.egg-info
+[0.801s] writing ex09_package.egg-info/PKG-INFO
+[0.801s] writing dependency_links to ex09_package.egg-info/dependency_links.txt
+[0.801s] writing top-level names to ex09_package.egg-info/top_level.txt
+[0.801s] writing manifest file 'ex09_package.egg-info/SOURCES.txt'
+[0.802s] reading manifest file 'ex09_package.egg-info/SOURCES.txt'
+[0.803s] writing manifest file 'ex09_package.egg-info/SOURCES.txt'
+[0.820s] [  5%] Built target ament_cmake_python_build_ex09_package_egg
+[0.847s] [ 10%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_generator_c.dir/rosidl_generator_c/ex09_package/msg/detail/full_name_message__functions.c.o[0m
+[0.847s] [ 10%] Built target ex09_package__cpp
+[0.847s] [ 10%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_generator_c.dir/rosidl_generator_c/ex09_package/srv/detail/full_name_sum_service__functions.c.o[0m
+[0.853s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.853s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.855s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.883s] [ 20%] [32m[1mLinking C shared library libex09_package__rosidl_generator_c.so[0m
+[0.905s] [ 20%] Built target ex09_package__rosidl_generator_c
+[0.911s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.914s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.914s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.017s] [ 33%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ex09_package/srv/full_name_sum_service__type_support.cpp.o[0m
+[1.017s] [ 33%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ex09_package/msg/full_name_message__type_support.cpp.o[0m
+[1.038s] [ 35%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ex09_package/srv/detail/full_name_sum_service__type_support.cpp.o[0m
+[1.040s] [ 38%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ex09_package/msg/detail/full_name_message__type_support.cpp.o[0m
+[1.056s] [ 43%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ex09_package/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o[0m
+[1.056s] [ 43%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ex09_package/msg/detail/dds_fastrtps/full_name_message__type_support.cpp.o[0m
+[1.115s] [ 48%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ex09_package/srv/detail/full_name_sum_service__type_support_c.cpp.o[0m
+[1.115s] [ 48%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ex09_package/msg/detail/full_name_message__type_support_c.cpp.o[0m
+[1.131s] [ 51%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/ex09_package/srv/full_name_sum_service__type_support.cpp.o[0m
+[1.131s] [ 53%] [32mBuilding CXX object CMakeFiles/ex09_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/ex09_package/msg/full_name_message__type_support.cpp.o[0m
+[1.165s] [ 56%] [32m[1mLinking CXX shared library libex09_package__rosidl_typesupport_c.so[0m
+[1.196s] [ 56%] Built target ex09_package__rosidl_typesupport_c
+[1.258s] [ 58%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ex09_package/msg/detail/full_name_message__type_support.c.o[0m
+[1.259s] [ 61%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ex09_package/srv/detail/full_name_sum_service__type_support.c.o[0m
+[1.296s] [ 64%] [32m[1mLinking C shared library libex09_package__rosidl_typesupport_introspection_c.so[0m
+[1.320s] [ 64%] Built target ex09_package__rosidl_typesupport_introspection_c
+[1.341s] [ 66%] [32m[1mLinking CXX shared library libex09_package__rosidl_typesupport_cpp.so[0m
+[1.374s] [ 66%] Built target ex09_package__rosidl_typesupport_cpp
+[1.384s] [ 69%] [32m[1mLinking CXX shared library libex09_package__rosidl_typesupport_fastrtps_c.so[0m
+[1.414s] [ 71%] [32m[1mLinking CXX shared library libex09_package__rosidl_typesupport_introspection_cpp.so[0m
+[1.435s] [ 71%] Built target ex09_package__rosidl_typesupport_fastrtps_c
+[1.441s] [ 74%] [32m[1mLinking CXX shared library libex09_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.457s] [ 74%] Built target ex09_package__rosidl_typesupport_introspection_cpp
+[1.486s] [ 74%] Built target ex09_package__rosidl_typesupport_fastrtps_cpp
+[1.497s] [ 74%] Built target ex09_package
+[1.509s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.740s] [ 76%] Built target ex09_package__py
+[1.752s] [ 79%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_generator_py.dir/rosidl_generator_py/ex09_package/srv/_full_name_sum_service_s.c.o[0m
+[1.752s] [ 82%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_generator_py.dir/rosidl_generator_py/ex09_package/msg/_full_name_message_s.c.o[0m
+[1.811s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/ex09_package/libex09_package__rosidl_generator_py.so[0m
+[1.834s] [ 84%] Built target ex09_package__rosidl_generator_py
+[1.847s] [ 92%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ex09_package/_ex09_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.847s] [ 92%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ex09_package/_ex09_package_s.ep.rosidl_typesupport_c.c.o[0m
+[1.847s] [ 92%] [32mBuilding C object CMakeFiles/ex09_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ex09_package/_ex09_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.901s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ex09_package/ex09_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.901s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ex09_package/ex09_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.901s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ex09_package/ex09_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.921s] [100%] Built target ex09_package__rosidl_typesupport_c__pyext
+[1.921s] [100%] Built target ex09_package__rosidl_typesupport_introspection_c__pyext
+[1.921s] [100%] Built target ex09_package__rosidl_typesupport_fastrtps_c__pyext
+[1.928s] Invoked command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package -- -j16 -l16
+[1.972s] Invoking command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package
+[1.977s] -- Install configuration: ""
+[1.977s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ament_index/resource_index/rosidl_interfaces/ex09_package
+[1.977s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package
+[1.977s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv
+[1.977s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail
+[1.977s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__type_support.h
+[1.977s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__struct.h
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__functions.c
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__functions.h
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/full_name_sum_service.h
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/full_name_message.h
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/rosidl_generator_c__visibility_control.h
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__type_support.h
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__functions.c
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__functions.h
+[1.978s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__struct.h
+[1.979s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/library_path.sh
+[1.979s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/library_path.dsv
+[1.979s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_generator_c.so
+[1.979s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_generator_c.so" to ""
+[1.979s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package
+[1.979s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv
+[1.979s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail
+[1.979s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h
+[1.979s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg
+[1.979s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail
+[1.979s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__rosidl_typesupport_fastrtps_c.h
+[1.980s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.980s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_fastrtps_c.so
+[1.980s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_fastrtps_c.so" to ""
+[1.980s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package
+[1.980s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv
+[1.980s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail
+[1.980s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h
+[1.980s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__type_support.c
+[1.980s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg
+[1.980s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail
+[1.980s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__rosidl_typesupport_introspection_c.h
+[1.980s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__type_support.c
+[1.980s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.981s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_introspection_c.so
+[1.981s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_introspection_c.so" to ""
+[1.981s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_c.so
+[1.981s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_c.so" to ""
+[1.981s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package
+[1.981s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv
+[1.981s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/full_name_sum_service.hpp
+[1.981s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail
+[1.981s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__builder.hpp
+[1.981s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__struct.hpp
+[1.981s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__traits.hpp
+[1.981s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg
+[1.981s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/full_name_message.hpp
+[1.982s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__traits.hpp
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__builder.hpp
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__struct.hpp
+[1.982s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package
+[1.982s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv
+[1.982s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/dds_fastrtps
+[1.982s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg
+[1.982s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__rosidl_typesupport_fastrtps_cpp.hpp
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/dds_fastrtps
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.982s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_fastrtps_cpp.so
+[1.982s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.983s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package
+[1.983s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv
+[1.983s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/srv/detail/full_name_sum_service__type_support.cpp
+[1.983s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg
+[1.983s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__type_support.cpp
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/include/ex09_package/ex09_package/msg/detail/full_name_message__rosidl_typesupport_introspection_cpp.hpp
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_introspection_cpp.so
+[1.983s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_introspection_cpp.so" to ""
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_cpp.so
+[1.983s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_typesupport_cpp.so" to ""
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/pythonpath.sh
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/pythonpath.dsv
+[1.983s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package-0.0.0-py3.10.egg-info
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package-0.0.0-py3.10.egg-info/top_level.txt
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package-0.0.0-py3.10.egg-info/PKG-INFO
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/srv
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/srv/_full_name_sum_service.py
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/srv/_full_name_sum_service_s.c
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/srv/__init__.py
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/_ex09_package_s.ep.rosidl_typesupport_c.c
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/libex09_package__rosidl_generator_py.so
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/msg
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/msg/_full_name_message.py
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/msg/_full_name_message_s.c
+[1.984s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/msg/__init__.py
+[1.985s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/_ex09_package_s.ep.rosidl_typesupport_introspection_c.c
+[1.985s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.985s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.985s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.985s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/_ex09_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.985s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/__init__.py
+[2.002s] Listing '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package'...
+[2.002s] Compiling '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/__init__.py'...
+[2.002s] Listing '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/msg'...
+[2.002s] Compiling '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/msg/__init__.py'...
+[2.002s] Compiling '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/msg/_full_name_message.py'...
+[2.002s] Listing '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/srv'...
+[2.002s] Compiling '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/srv/__init__.py'...
+[2.002s] Compiling '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/srv/_full_name_sum_service.py'...
+[2.005s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.005s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.005s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.005s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.005s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.005s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/local/lib/python3.10/dist-packages/ex09_package/ex09_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.005s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_generator_py.so
+[2.006s] -- Set runtime path of "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/lib/libex09_package__rosidl_generator_py.so" to ""
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/msg/FullNameMessage.idl
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/srv/FullNameSumService.idl
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/msg/FullNameMessage.msg
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/srv/FullNameSumService.srv
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/srv/FullNameSumService_Request.msg
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/srv/FullNameSumService_Response.msg
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ament_index/resource_index/package_run_dependencies/ex09_package
+[2.006s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ament_index/resource_index/parent_prefix_path/ex09_package
+[2.006s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/ament_prefix_path.sh
+[2.006s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/ament_prefix_path.dsv
+[2.007s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/path.sh
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/environment/path.dsv
+[2.007s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.bash
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.sh
+[2.007s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.zsh
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/local_setup.dsv
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/package.dsv
+[2.007s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ament_index/resource_index/packages/ex09_package
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_generator_cExport.cmake
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_generator_cExport-noconfig.cmake
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_typesupport_fastrtps_cExport.cmake
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_introspection_cExport.cmake
+[2.007s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_cExport.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_cExport-noconfig.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_generator_cppExport.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_introspection_cppExport.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_cppExport.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_package__rosidl_typesupport_cppExport-noconfig.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_generator_pyExport.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/export_ex09_package__rosidl_generator_pyExport-noconfig.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/rosidl_cmake-extras.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.008s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ament_cmake_export_libraries-extras.cmake
+[2.009s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ament_cmake_export_targets-extras.cmake
+[2.009s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.009s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.009s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.009s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_packageConfig.cmake
+[2.009s] -- Up-to-date: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/cmake/ex09_packageConfig-version.cmake
+[2.010s] -- Installing: /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/install/ex09_package/share/ex09_package/package.xml
+[2.010s] Invoked command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package

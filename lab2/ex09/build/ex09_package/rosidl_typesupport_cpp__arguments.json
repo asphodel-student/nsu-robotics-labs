@@ -1,0 +1,19 @@
+{
+  "package_name": "ex09_package",
+  "output_dir": "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package/rosidl_typesupport_cpp/ex09_package",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package/rosidl_adapter/ex09_package:msg/FullNameMessage.idl",
+    "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package/rosidl_adapter/ex09_package:srv/FullNameSumService.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package/rosidl_adapter/ex09_package/msg/FullNameMessage.idl",
+    "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/build/ex09_package/rosidl_adapter/ex09_package/srv/FullNameSumService.idl"
+  ]
+}
