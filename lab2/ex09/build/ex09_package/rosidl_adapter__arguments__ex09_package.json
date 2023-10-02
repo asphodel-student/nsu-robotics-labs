@@ -1,7 +1,0 @@
-{
-  "package_name": "ex09_package",
-  "non_idl_tuples": [
-    "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/src/ex09_package:msg/FullNameMessage.msg",
-    "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex09/src/ex09_package:srv/FullNameSumService.srv"
-  ]
-}

@@ -11,8 +11,6 @@ public:
         cmd_text_subscription_ = this->create_subscription<std_msgs::msg::String>("cmd_text", 10,
             [this](const std_msgs::msg::String::SharedPtr msg) 
             {
-                std::cout << "I'm alive!" << std::endl;
-
                 geometry_msgs::msg::Twist cmd_vel;
                 if (msg->data == "turn_right") {
                     cmd_vel.angular.z = -1.5; 

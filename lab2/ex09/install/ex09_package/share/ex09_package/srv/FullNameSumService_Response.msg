@@ -1,3 +1,0 @@
-
-string full_name
-

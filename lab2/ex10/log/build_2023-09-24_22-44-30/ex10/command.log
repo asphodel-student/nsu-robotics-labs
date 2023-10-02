@@ -1,2 +1,0 @@
-Invoking command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/build/ex10': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/build/ex10 -- -j16 -l16
-Invoked command in '/home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/build/ex10' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asphodel/NSU/Labs/nsu-robotics-labs/lab2/ex10/build/ex10 -- -j16 -l16
