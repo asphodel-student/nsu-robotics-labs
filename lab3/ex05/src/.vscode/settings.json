@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "/home/asphodel/NSU/Labs/nsu-robotics-labs/lab3/ex05/src/move_to_goal",
+    "files.associations": {
+        "memory": "cpp",
+        "istream": "cpp",
+        "functional": "cpp",
+        "format": "cpp"
+    }
+}
