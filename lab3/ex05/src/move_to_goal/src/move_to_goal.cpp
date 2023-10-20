@@ -24,31 +24,19 @@ public:
 
         _goal.x     = std::stof(argv[1]);
         _goal.y     = std::stof(argv[2]);
-        _goal.theta = std::stof(argv[3]);
+        _goal.theta = std::stof(argv[3]);       
     }
 
 private:
     turtlesim::msg::Pose _msg;
     turtlesim::msg::Pose _goal;
 
+    float xSpeed, ySpeed, aSpeed, destinationTheta;
+    bool isStarted = false;
+
     float getEuclidianDistance()
     {
         return std::sqrt(std::pow(_goal.x - _msg.x, 2) + std::pow(_goal.y - _msg.y, 2));
-    }
-
-    float getLinearVelocity(float constant=1)
-    {
-        return constant * getEuclidianDistance();
-    }
-
-    float getSteeringAngle()
-    {
-        return std::atan2(_goal.y - _msg.y, _goal.x - _msg.x);
-    }
-
-    float getAngularVelocity(float constant=4)
-    {
-        return constant * (getSteeringAngle() - _msg.theta);
     }
 
     void updatePoseCallback(const turtlesim::msg::Pose& msg) 
@@ -57,22 +45,37 @@ private:
 
         geometry_msgs::msg::Twist res;
 
-        res.linear.y = res.linear.z = 0;
-        res.angular.x = res.angular.y = 0;
-       
-        res.linear.x = getLinearVelocity();
-        res.angular.z = getAngularVelocity();
+        // Задаем начальную скорость при движении и угол поворота
+        if (!isStarted)
+        {
+            xSpeed = _goal.x - _msg.x;
+            ySpeed = _goal.y - _msg.y;
+            this->destinationTheta = (_msg.theta + (_goal.theta * 3.14 / 180));
+          
+            isStarted = true;
+        }
 
+        // Когда доехали до точки, останавливаемся и начинаем поворачиваться
+        if (getEuclidianDistance() < 0.2)
+        {
+            xSpeed = ySpeed = 0;
+            aSpeed = 0.25;
+        }
+
+        res.linear.x    = xSpeed;
+        res.linear.y    = ySpeed;
+        res.angular.z   = aSpeed;
+        
         _publisher->publish(res);
 
-        if (getEuclidianDistance() < 0.1)
+        // Ждем, пока повернемся на нужный угол
+        if (aSpeed != 0)
         {
-            res.linear.x = 0;
-            res.angular.z = 0;
-
-            _publisher->publish(res);
-
-            rclcpp::shutdown();
+            if (std::abs(_msg.theta - destinationTheta) < 0.01)
+            {
+                res.angular.z = 0.0;
+                _publisher->publish(res);
+            }
         }
     }
 
